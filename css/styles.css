@@ -1,9 +1,11 @@
 body{
-  background: linear-gradient(65deg, yellow, lightskyblue);
+  background: white;
 }
 
+/* https://i1.wp.com/gammelbys.dk/wp-content/uploads/2018/01/Gbys_web_blog_rs_190429_vers_121.jpg?fit=1800%2C1200&ssl=1 */
+
 .photo-face{
-  background: url(https://i1.wp.com/gammelbys.dk/wp-content/uploads/2018/01/Gbys_web_blog_rs_190429_vers_121.jpg?fit=1800%2C1200&ssl=1);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images.wallpaperscraft.com/image/mountain_volcano_top_138650_2560x1080.jpg);
   background-size: cover;
   display: block;
   text-align: center;
@@ -24,15 +26,9 @@ body{
 }
 
 .smm img{
-  width: 10%;
+  width: 3%;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-.smm{
-  display: block;
-  text-align: center;
-  float: right;
 }
 
 #txt{
@@ -43,14 +39,11 @@ body{
 
 .text-time{
   text-align: center;
-  font-size: 48px;
+  font-size: 36px;
   font-family: "Bahnschrift", sans-serif, serif;
 }
 
 .text-time span{
-  position: absolute;
-  top: 32.5%;
-  left: 42.5%;
   font-size: 18px;
 }
 
