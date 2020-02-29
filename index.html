@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bohdan Petrina as a web-developer.</title>
+  <meta name="description" content="Portfolio, testing, work, JS">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <script>
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML =
+        h + ":" + m + ":" + s;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
+  </script>
+
+</head>
+
+<body onload="startTime()">
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+<!-- scripts -->
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- code -->
+
+  <div class="smm">
+    <a href="#"><img src="https://i.pinimg.com/originals/23/da/be/23dabe90dfaadb4565540727fdaa054a.png" alt="facebook"></a>
+    <a href="#"><img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" alt="instagram" style="width: 7.5%;"></a>
+    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="telegram" style="width: 7.2%;"></a>
+    <a href="#"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github"></a>
+  </div>
+
+  <div class="text-time">
+    <p>Your time is</p>
+    <div id="txt"></div> <span>(Synchronized with your local time)</span>
+  </div>
+
+  <div class="photo-face">
+    <div><img src="https://scontent.flwo3-1.fna.fbcdn.net/v/t1.0-9/87391958_825415287974268_4379267174624133120_n.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=r6UB3CniwCcAX__pPDi&_nc_ht=scontent.flwo3-1.fna&oh=1a1a7368e1121edb75d572bb98d5dde9&oe=5EBD3430" alt="Bohdan Petrina"></div>
+    <h1>A brand new look on a web development without using JS at the first time by a student of DSPU.</h1>
+  </div>
+
+</body>
+
+</html>

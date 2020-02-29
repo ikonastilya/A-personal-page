@@ -1,0 +1,56 @@
+body{
+  background: linear-gradient(65deg, yellow, lightskyblue);
+}
+
+.photo-face{
+  background: url(https://i1.wp.com/gammelbys.dk/wp-content/uploads/2018/01/Gbys_web_blog_rs_190429_vers_121.jpg?fit=1800%2C1200&ssl=1);
+  background-size: cover;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.photo-face img{
+  border: 2px gray solid;
+  border-radius: 360px;
+  width: 15%;
+}
+
+.photo-face h1{
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: "Bahnschrift", sans-serif, serif;
+  text-align: center;
+}
+
+.smm img{
+  width: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.smm{
+  display: block;
+  text-align: center;
+  float: right;
+}
+
+#txt{
+  text-align: center;
+  font-family: "Bahnschrift", sans-serif, serif;
+  font-size: 36px;
+}
+
+.text-time{
+  text-align: center;
+  font-size: 48px;
+  font-family: "Bahnschrift", sans-serif, serif;
+}
+
+.text-time span{
+  position: absolute;
+  top: 32.5%;
+  left: 42.5%;
+  font-size: 18px;
+}
+
