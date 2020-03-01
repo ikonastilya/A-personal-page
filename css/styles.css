@@ -13,7 +13,7 @@ body{
 .welcome-screen{
   height:100%;
   box-sizing: border-box;
-  background: url(https://i.imgur.com/MK9Sc7n.jpg) no-repeat center;
+  background: url(../img/code.jpg);
   background-size: cover;
 }
 
@@ -35,11 +35,10 @@ body{
 
 .photo-face{
   margin-top: 20px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://i1.wp.com/gammelbys.dk/wp-content/uploads/2018/01/Gbys_web_blog_rs_190429_vers_121.jpg?fit=1800%2C1200&ssl=1);
   background-size: cover;
   display: block;
   text-align: center;
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .photo-face img{
@@ -48,9 +47,15 @@ body{
   width: 15%;
 }
 
-.photo-face h1{
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+.text-bio h1{
+  width: 500px;
+  height: 200px;
+  padding-bottom: 50px;
+  display: block;
+  padding-top: 10px;
+  margin: 0 auto;
+  font-size: 24px;
+  color: black;
   font-family: "Bahnschrift", sans-serif, serif;
   text-align: center;
 }
@@ -127,4 +132,28 @@ body{
 
 .smm{
   padding: 20px 20px;
+}
+
+.hobbies{
+  float: left;
+  margin: 10px;
+}
+.hobbies img{
+  height: 100px;
+  width: 100px;
+}
+
+.hobbies p{
+  text-align: center;
+}
+
+.hobbies-box{
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  background: gray;
+  text-align: center;
+  width: 750px;
+  height: 230px;
+  font-family: "Bahnschrift", sans-serif, serif;
 }
