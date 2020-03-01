@@ -50,7 +50,7 @@ body{
 .text-bio h1{
   width: 500px;
   height: 200px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   display: block;
   padding-top: 10px;
   margin: 0 auto;
@@ -135,6 +135,7 @@ body{
 }
 
 .hobbies{
+  padding-left: 10px;
   float: left;
   margin: 10px;
 }
@@ -151,7 +152,9 @@ body{
   color: white;
   display: block;
   margin: 0 auto;
-  background: gray;
+  background: #b5bdc9;
+  border: 1px #b5bdc9 solid;
+  border-radius: 20px;
   text-align: center;
   width: 850px;
   height: 230px;
