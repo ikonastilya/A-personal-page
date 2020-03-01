@@ -7,7 +7,7 @@ body{
   text-align: center;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-family: "Bahnschrift", sans-serif, serif;
+  font-family: "Montserrat", sans-serif, serif;
 }
 
 .welcome-screen{
@@ -56,7 +56,7 @@ body{
   margin: 0 auto;
   font-size: 24px;
   color: black;
-  font-family: "Bahnschrift", sans-serif, serif;
+  font-family: "Montserrat", sans-serif, serif;
   text-align: center;
 }
 
@@ -68,7 +68,7 @@ body{
 }
 
 #txt{
-  font-family: "Bahnschrift", sans-serif, serif;
+  font-family: "Montserrat", sans-serif, serif;
   font-size: 36px;
 }
 
@@ -76,7 +76,7 @@ body{
   display: block;
   margin: 0 auto;
   text-align: center;
-  font-family: "Bahnschrift", sans-serif, serif;
+  font-family: "Montserrat", sans-serif, serif;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -87,7 +87,7 @@ body{
   display: block;
   margin: 0 auto;
   font-size: 36px;
-  font-family: "Bahnschrift", sans-serif, serif;
+  font-family: "Montserrat", sans-serif, serif;
 }
 
 .text-time span{
@@ -96,7 +96,7 @@ body{
 }
 
 .top-bar{
-  font-family: "Bahnschrift", sans-serif, serif;
+  font-family: "Montserrat", sans-serif, serif;
   color: white;
   background: black;
   position: fixed;
@@ -149,18 +149,18 @@ body{
 
 .hobbies-box{
   color: white;
-  padding: 10px;
   display: block;
   margin: 0 auto;
   background: gray;
   text-align: center;
-  width: 750px;
+  width: 850px;
   height: 230px;
-  font-family: "Bahnschrift", sans-serif, serif;
+  font-family: "Montserrat", sans-serif, serif;
 }
 
 
 .waves{
+  margin-top: 10px;
   position: relative;
   background: #3586ff;
   width: 100%;
@@ -224,7 +224,7 @@ section.waves .wave.wave4 {
 }
 
 .waves span{
-  font-family: "Bahnschrift", sans-serif, serif;
+  font-family: "Montserrat", sans-serif, serif;
   font-size: 24px;
   text-align: center;
   padding-left: 50px;
