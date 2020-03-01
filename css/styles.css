@@ -2,10 +2,40 @@ body{
   background: white;
 }
 
-/* https://i1.wp.com/gammelbys.dk/wp-content/uploads/2018/01/Gbys_web_blog_rs_190429_vers_121.jpg?fit=1800%2C1200&ssl=1 */
+.welcome-screen{
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: "Bahnschrift", sans-serif, serif;
+}
+
+.welcome-screen{
+  height:100%;
+  box-sizing: border-box;
+  background: url(https://i.imgur.com/MK9Sc7n.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.welcome-text{
+  padding: 20px;
+}
+
+.welcome-text h1{
+  display: block;
+  margin: 0 auto;
+  font-size: 60px;
+}
+
+.welcome-text p{
+  display: block;
+  margin: 0 auto;
+  font-size: 36px;
+}
 
 .photo-face{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images.wallpaperscraft.com/image/mountain_volcano_top_138650_2560x1080.jpg);
+  margin-top: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://i1.wp.com/gammelbys.dk/wp-content/uploads/2018/01/Gbys_web_blog_rs_190429_vers_121.jpg?fit=1800%2C1200&ssl=1);
   background-size: cover;
   display: block;
   text-align: center;
@@ -25,25 +55,76 @@ body{
   text-align: center;
 }
 
-.smm img{
-  width: 3%;
+.welcome-screen img{
+  width: 5%;
+  padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 #txt{
-  text-align: center;
   font-family: "Bahnschrift", sans-serif, serif;
   font-size: 36px;
 }
 
 .text-time{
+  display: block;
+  margin: 0 auto;
   text-align: center;
+  font-family: "Bahnschrift", sans-serif, serif;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.yourtime{
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  display: block;
+  margin: 0 auto;
   font-size: 36px;
   font-family: "Bahnschrift", sans-serif, serif;
 }
 
 .text-time span{
+  padding-top: 20px;
   font-size: 18px;
 }
 
+.top-bar{
+  font-family: "Bahnschrift", sans-serif, serif;
+  color: white;
+  background: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.top-bar a{
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 20px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.top-bar a:hover{
+  background: gray;
+}
+
+.top-bar p{
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.arrow{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.smm{
+  padding: 20px 20px;
+}

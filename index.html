@@ -16,19 +16,21 @@
   <meta name="theme-color" content="#fafafa">
 
   <script>
-    function startTime() {
-      var today = new Date();
-      var h = today.getHours();
-      var m = today.getMinutes();
-      var s = today.getSeconds();
+    function startTime()
+    {
+      let today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      let s = today.getSeconds();
       m = checkTime(m);
       s = checkTime(s);
       document.getElementById('txt').innerHTML =
         h + ":" + m + ":" + s;
-      var t = setTimeout(startTime, 500);
+      setTimeout(startTime, 500);
     }
+
     function checkTime(i) {
-      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      if (i < 10) {i = "0" + i}  // add zero in front of numbers < 10
       return i;
     }
   </script>
@@ -47,23 +49,43 @@
   <script src="js/main.js"></script>
 
   <!-- code -->
-
-  <div class="smm">
-    <a href="#"><img src="https://i.pinimg.com/originals/23/da/be/23dabe90dfaadb4565540727fdaa054a.png" alt="facebook"></a>
-    <a href="#"><img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" alt="instagram" style="width: 2.5%;"></a>
-    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="telegram" style="width: 2.5%;"></a>
-    <a href="#"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github"></a>
+  <div class="top-bar">
+    <p>Lorem ipsum sit dolor amet.</p>
+    <a href="#">About</a>
+    <a href="#">About</a>
+    <a href="#">About</a>
+    <a href="#">About</a>
   </div>
 
-  <div class="text-time">
-    <p>Your time is</p>
-    <div id="txt"></div>
-    <p>(Synchronized with your local time)</p>
+
+  <div class="welcome-screen">
+    <div class="smm">
+    <a href="#"><img src="https://i.pinimg.com/originals/23/da/be/23dabe90dfaadb4565540727fdaa054a.png" alt="facebook"></a>
+    <a href="#"><img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" alt="instagram" style="width: 3.5%;"></a>
+    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1024px-Telegram_logo.svg.png" alt="telegram" style="width: 3.5%;"></a>
+    <a href="#"><img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" alt="github" style="width: 4%;"></a>
+    </div>
+
+    <div class="welcome-text">
+      <h1>Hi, I'm Bohdan.</h1>
+      <p>Scroll down to see this page.</p>
+    </div>
+
+    <p class="yourtime">Your time is</p>
+
+    <div class="text-time">
+      <span>(Synchronized with your local time)</span>
+      <div id="txt"></div>
+    </div>
+
+    <div class="arrow">
+      <a href="#"><img src="https://cdn.iconscout.com/icon/free/png-256/down-arrow-14-460287.png" alt="arrow"></a>
+    </div>
   </div>
 
   <div class="photo-face">
     <div><img src="https://scontent.flwo3-1.fna.fbcdn.net/v/t1.0-9/87391958_825415287974268_4379267174624133120_n.jpg?_nc_cat=106&_nc_sid=85a577&_nc_ohc=r6UB3CniwCcAX__pPDi&_nc_ht=scontent.flwo3-1.fna&oh=1a1a7368e1121edb75d572bb98d5dde9&oe=5EBD3430" alt="Bohdan Petrina"></div>
-    <h1>A brand new look on a web development without using JS at the first time by a student of DSPU.</h1>
+    <h1>17 years-old student of DSPU.</h1>
   </div>
 
 </body>
