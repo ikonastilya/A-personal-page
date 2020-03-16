@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>Bohdan Petrina's portfolio.</title>
   <meta name="description" content="Portfolio, testing, work, JS">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="width=device-width, height=device-height, initial-scale=1, minimum-scale= 0.1, user-scalable = yes"
+        name="viewport">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -29,13 +30,14 @@
     }
 
     function checkTime(i) {
-      if (i < 10) {i = "0" + i}  // add zero in front of numbers < 10
+      if (i < 10) {
+        i = "0" + i
+      }
       return i;
     }
   </script>
 
 </head>
-
 <body onload="startTime()">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -47,13 +49,11 @@
   <script src="js/main.js"></script>
 
   <nav class="top-bar">
-    <p>Bohdan Petrina - a front-end developer.</p>
     <a href="#">About</a>
     <a href="#">My Projects</a>
     <a href="#">Donate Me</a>
     <a href="#">My working experience</a>
   </nav>
-
 
   <div class="welcome-screen">
     <nav class="smm">
@@ -90,21 +90,15 @@
     </div>
   </article>
 
-<article class="hobbies-box">
-  <p style="font-size: 24px;">I like doing things such as:</p>
-  <div class="hobbies">
-    <img src="http://getdrawings.com/vectors/computer-vector-png-23.png" alt="pc">
+  <article class="hobbies-box">
+    <p>I like doing things such as:</p>
+    <img alt="pc" src="computer-vector-png-23.png">
     <p>Writing code and playing games.</p>
-  </div>
-  <div class="hobbies">
-    <img src="https://image.flaticon.com/icons/png/512/46/46271.png" alt="learning">
+    <img alt="learning" src="46271.png">
     <p>Learning about past time.</p>
-  </div>
-  <div class="hobbies">
-    <img src="https://www.svgrepo.com/show/15944/christmas-tree-doodle.svg" alt="countryside-relax">
+    <img alt="countryside-relax" src="7JjLKldfusQ.png">
     <p>Going to countryside with my family.</p>
-  </div>
-</article>
+  </article>
 
 <section class="waves">
   <div class="wave wave1"></div>
@@ -113,12 +107,11 @@
   <div class="wave wave4"></div>
 </section>
 
-<footer class="wavesfoot">
-  <a href="#"><span>Contacts</span></a>
-  <a href="#"><span>Leave a feedback</span></a>
-  <a href="#"><span>Support</span></a>
-</footer>
+  <footer class="wavesfoot">
+    <a href="#">Contacts</a>
+    <a href="#">Leave a feedback</a>
+    <a href="#">Support</a>
+  </footer>
 
 </body>
-
 </html>

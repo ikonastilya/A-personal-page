@@ -1,16 +1,13 @@
 body{
   background: white;
+  box-sizing: content-box;
 }
 
 .welcome-screen{
   margin-top: 40px;
   text-align: center;
   color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-family: "Montserrat", sans-serif, serif;
-}
-
-.welcome-screen{
   width: 100%;
   height: 100%;
   box-sizing: border-box;
@@ -48,9 +45,9 @@ body{
   width: 15%;
 }
 
-.text-bio h1{
-  width: 500px;
-  height: 200px;
+.text-bio h1 {
+  width: 50%;
+  height: 50%;
   padding-bottom: 90px;
   display: block;
   padding-top: 10px;
@@ -79,12 +76,10 @@ body{
   text-align: center;
   font-family: "Montserrat", sans-serif, serif;
   color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .yourtime{
   color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   display: block;
   margin: 0 auto;
   font-size: 36px;
@@ -96,7 +91,7 @@ body{
   font-size: 18px;
 }
 
-.top-bar{
+.top-bar {
   font-family: "Montserrat", sans-serif, serif;
   color: white;
   background: black;
@@ -104,6 +99,7 @@ body{
   top: 0;
   width: 100%;
   overflow: hidden;
+  font-size: 1em;
 }
 
 .top-bar a{
@@ -120,11 +116,6 @@ body{
   background: gray;
 }
 
-.top-bar p{
-  display: inline-block;
-  padding-left: 10px;
-}
-
 .arrow{
   display: block;
   margin: 0 auto;
@@ -135,49 +126,39 @@ body{
   padding: 20px 20px;
 }
 
-.hobbies{
-  padding-left: 10px;
-  float: left;
-  margin: 10px;
-}
-.hobbies img{
-  height: 100px;
-  width: 100px;
-}
-
-.hobbies p{
-  text-align: center;
-}
-
-.hobbies-box{
+.hobbies-box {
   color: white;
   display: block;
   margin: 0 auto;
-  background: #b5bdc9;
+  background: black;
   border: 1px #b5bdc9 solid;
   border-radius: 20px;
   text-align: center;
-  width: 850px;
-  height: 230px;
+  width: 40%;
+  height: auto;
   font-family: "Montserrat", sans-serif, serif;
+  font-size: 24px;
 }
 
+.hobbies-box img {
+  width: 30%;
+}
 
-.waves{
+.waves {
   margin-top: 10px;
   position: relative;
   background: #3586ff;
   width: 100%;
-  height: 14vh;
+  height: 16vh;
   overflow: hidden;
 }
 
-section.waves .wave{
+section.waves .wave {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 5em;
   background: url(../wave.png);
   background-size: 1000px 100px;
 }
@@ -227,16 +208,17 @@ section.waves .wave.wave4 {
   bottom: 15px;
 }
 
-.wavesfoot span{
+.wavesfoot {
   font-family: "Montserrat", sans-serif, serif;
-  font-size: 24px;
+  font-size: 2em;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 20px;
+  padding-top: 1em;
 }
 
-.wavesfoot a{
+.wavesfoot a {
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
   color: black;
   text-decoration: none;
   transition-duration: 0.5s;
@@ -244,4 +226,3 @@ section.waves .wave.wave4 {
 .wavesfoot a:hover{
   color: blue;
 }
-
