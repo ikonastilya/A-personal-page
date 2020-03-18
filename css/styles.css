@@ -133,17 +133,23 @@ body{
   background: #b5bdc9;
   border-radius: 20px;
   text-align: center;
-  width: 60%;
+  width: 35%;
   height: 60%;
   font-family: "Montserrat", sans-serif, serif;
-  font-size: 24px;
+  font-size: 20px;
 }
 
-.hobbies-pics {
-  display: block;
+.hobbies-box p {
   margin: auto;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.hobbies-pics img {
+  display: inline-block;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .waves {
