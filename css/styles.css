@@ -126,34 +126,25 @@ body{
   padding: 20px 20px;
 }
 
-.hobbies {
-  padding-left: 10px;
-  float: left;
-  margin: 10px;
-}
-
-.hobbies img {
-  height: 100px;
-  width: 100px;
-}
-
-.hobbies p {
-  text-align: center;
-}
-
 .hobbies-box {
-  overflow: hidden;
   color: white;
   display: block;
   margin: 0 auto;
-  background: #5b615d;
+  background: #b5bdc9;
   border-radius: 20px;
   text-align: center;
-  width: 45%;
-  height: auto;
+  width: 60%;
+  height: 60%;
   font-family: "Montserrat", sans-serif, serif;
+  font-size: 24px;
 }
 
+.hobbies-pics {
+  display: block;
+  margin: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
 .waves {
   margin-top: 20px;
