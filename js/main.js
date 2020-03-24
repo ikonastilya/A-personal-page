@@ -1,7 +1,7 @@
 function startTime() {
   let today = new Date();
   let h = today.getHours();
-  let m = today.getMinutes();
+  let m = today.getMinutes(); // PC time
   let s = today.getSeconds();
   m = checkTime(m);
   s = checkTime(s);
@@ -20,7 +20,7 @@ function checkTime(i) {
 const images = ["0.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg"];
 $(function () {
   let i = 0;
-  $("#dvImage").css("background-image", "url(images/" + images[i] + ")");
+  $("#dvImage").css("background-image", "url(images/" + images[i] + ")");  // wallpaper transition
   setInterval(function () {
     i++;
     if (i === images.length) {
@@ -46,3 +46,13 @@ $(document).ready(function () {
     }
   });
 });
+
+
+$(document).ready(function () {
+
+  setTimeout(function () {
+    $('body').addClass('loaded');
+    $('h1').css('color', '#222222');
+  }, 3000);
+
+}); // preload animation

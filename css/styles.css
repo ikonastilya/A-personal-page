@@ -4,7 +4,7 @@ body{
 }
 
 .welcome-screen{
-  margin-top: 45px;
+  margin-top: 40px;
   text-align: center;
   color: white;
   font-family: "Montserrat", sans-serif, serif;
@@ -18,7 +18,8 @@ body{
   padding: 20px;
 }
 
-.welcome-text h1{
+.welcome-text h1 {
+  color: white !important;
   display: block;
   margin: 0 auto;
   font-size: 60px;
