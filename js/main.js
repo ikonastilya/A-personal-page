@@ -17,42 +17,30 @@ function checkTime(i) {
   return i;
 }
 
+
+let clickCount = 1;
 const images = ["0.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg"];
-$(function () {
-  let i = 0;
-  $("#dvImage").css("background-image", "url(images/" + images[i] + ")");  // wallpaper transition
-  setInterval(function () {
-    i++;
-    if (i === images.length) {
-      i = 0;
+setTimeout(() => {
+  document.getElementById("dvImage").style.backgroundImage = 'url(images/' + images[0] + ')';
+})
+setTimeout(() => {
+  document.getElementById("dvImage").addEventListener("click", () => {
+    if (clickCount === images.length) {
+      clickCount = 0;
     }
-    $("#dvImage").fadeOut("250", function () {
-      $(this).css("background-image", "url(images/" + images[i] + ")");
-      $(this).fadeIn("250");
-    });
-  }, 5000);
-});
 
-$(document).ready(function () {
-  $("a").on('click', function (event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      let hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function () {
-        window.location.hash = hash;
-      });
-    }
-  });
-});
+    let someimage = images[clickCount];
+
+    let dvImage = document.getElementById("dvImage");
+    dvImage.style.backgroundImage = 'url(images/' + someimage + ')';
+    clickCount++;
+  })
+})
 
 
-$(document).ready(function () {
-
-  setTimeout(function () {
-    $('body').addClass('loaded');
-    $('h1').css('color', '#222222');
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    document.body.classList.add("loaded");
+    document.body.querySelector("h1").style.color = "#222222";
   }, 3000);
-
-}); // preload animation
+});
